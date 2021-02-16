@@ -1,3 +1,6 @@
-<p>
-  board-item-details works!
-</p>
+
+<div *ngIf="item">
+  <h1>{{ item.title }}</h1>
+  <img src="https://via.placeholder.com/150" />
+  <p>{{ item.description }}</p>
+</div>
