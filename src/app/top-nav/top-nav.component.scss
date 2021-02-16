@@ -1,3 +1,23 @@
-.login-button > i {
+.login-button {
+  padding-top: 0.5em;
+  text-align: center;
   color: white;
+  width: 75px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: green;
+}
+
+.signup-button {
+  padding-top: 0.5em;
+  text-align: center;
+  color: white;
+  width: 75px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: gray;
+}
+
+.nav-buttons {
+
 }
