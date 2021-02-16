@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoardItemComponent } from './board-item/board-item.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { BoardItemDetailsComponent } from './board-item-details/board-item-details.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
       BoardItemComponent,
-      TopNavComponent
+      TopNavComponent,
+      BoardItemDetailsComponent
    ],
   imports: [
     BrowserModule,
